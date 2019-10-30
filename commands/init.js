@@ -62,14 +62,17 @@ const question = [
     }
   }
 ]
+
 module.exports = prompt(question).then(({name, template, description, author}) => {
   const projectName = name
   const templateName = template
   const gitPlace = tplList[templateName]['place']
   const gitBranch = tplList[templateName]['branch']
   const spinner = ora('Downloading please wait...')
+  // return
   spinner.start()
-  download(`${gitPlace}${gitBranch}`, `./${projectName}`, (err) => {
+  // http://gitlab.hellobike.cn/Carfee/h5-template.git
+  download(`direct:http://gitlab.hellobike.cn/${gitPlace}${gitBranch}`, `./${projectName}`, {clone: true}, (err) => {
     if (err) {
       console.log(chalk.red(err))
       process.exit()

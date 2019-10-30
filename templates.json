@@ -1,11 +1,11 @@
 {
-  "init": {
+  "Carfee/h5-template": {
     "place": "Carfee/h5-template",
     "branch": ""
   },
-  "complete-project": {
-    "place": "Hzy0913/react-template",
-    "branch": "#complete"
+  "Carfee/ReactAdminTemplate": {
+    "place": "Carfee/ReactAdminTemplate",
+    "branch": "#release/1.0.0"
   },
   "simple-project": {
     "place": "Hzy0913/react-template",
