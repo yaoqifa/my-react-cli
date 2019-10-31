@@ -1,14 +1,14 @@
 {
-  "Carfee/h5-template": {
+  "Carfee/h5-template(vue h5模版)": {
     "place": "Carfee/h5-template",
     "branch": ""
   },
-  "Carfee/ReactAdminTemplate": {
+  "Carfee/ReactAdminTemplate(react后台模版)": {
     "place": "Carfee/ReactAdminTemplate",
     "branch": "#release/1.0.0"
   },
-  "simple-project": {
-    "place": "Hzy0913/react-template",
-    "branch": "#simple"
+  "Carfee/AdminTemplate(vue后台模版)": {
+    "place": "Carfee/AdminTemplate",
+    "branch": ""
   }
 }
